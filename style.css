@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+label, .button{
+    margin: 1%;
+}
+i{
+    font-size: 3em
+}
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: transparent;
+    color: white;
+    width: 20vw;
+}
+input::placeholder {
+    color: white;
+}
+input:focus {
+    outline: 1px solid white;
+}
+i{
+    font-size: 4em;
+}
+body{
+    background-image: url(quiz\ bg\ img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.button{
+    background-color: blue;
+    border: none;
+    height: 50px;    
+    width: 20vw;
+    border-radius: 3px;
+    transition: all .20s ease-in-out;
+    background-image: linear-gradient(to right, #044a83, rgba(0, 0, 255, 0.397));
+}
+.button:hover{
+    text-shadow: 0px 0px 10px white;
+    box-shadow: 0px 0px 10px #2195f35d;
+}
+.text{
+    text-shadow: 0px 0px 10px white;
+}
+img{
+    cursor: pointer;
+    transform: scale(1.1);
+    margin-top: 15%;
+}
+.social-icon{
+    font-size: 2em;
+    margin: 4% 1%;
+}
+.social-icon:hover{
+    transform: scale(1.1);
+}
+.text-center{
+    margin-top: 2%;
+}
+tr, td{
+font-size: 1.5em;
+}
+.head1{
+    font-size: 3em;
+}
